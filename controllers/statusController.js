@@ -18,6 +18,7 @@ const createStatus = (req, res, next) => {
         User.find({user_id:post.user_id})
         .then(result=>{
             post.profile_url=result[0].profile_url
+            post.username=result[0].username
             post.save()
             .then(status => {
                 const resdata = {
