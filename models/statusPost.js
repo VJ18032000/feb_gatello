@@ -44,6 +44,10 @@ const statusSchema = new mongoose.Schema({
         type: String,
         required:false
     },
+     username:{
+        type: String,
+        required:false
+    },
     createdAt: { type: Date, expires: '1440m', default: Date.now }
 })
 
