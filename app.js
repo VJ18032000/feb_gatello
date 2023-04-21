@@ -1,6 +1,6 @@
 const express = require('express')
 const mongoose = require('mongoose')
-const url = "mongodb+srv://Gatello_Production:Cyb0SnTNNCWpGW2x@cluster0.wxn37.mongodb.net/gatello?authSource=admin&replicaSet=atlas-awavdn-shard-0&readPreference=primary&ssl=true"
+const url = ""
 
 const app = express()
 const bodyParser=require('body-parser')
